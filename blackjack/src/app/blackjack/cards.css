@@ -1,0 +1,34 @@
+.card {
+  border: solid 3px black;
+  border-radius: 9px;
+  width: 100px;
+  height: 150px;
+  float: left;
+  background-color: white;
+  padding: 3px 3px 3px 3px;
+  margin: 5px;
+}
+
+.card .value {
+  font-size: 18pt;
+  font-family: sans-serif;
+}
+
+.card .suit {
+  background-image: url('../../public/cards.png');
+  height: 100px;
+  width: 90px;
+}
+
+.card .diamonds {
+  background-position-y: 100px;
+}
+
+.card .hearts {
+  background-position-x: 90px;
+}
+
+.card .clubs {
+  background-position-x: 90px;
+  background-position-y: 100px;
+}

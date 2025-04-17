@@ -1,0 +1,84 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/blackjack/container.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: auto;
+  padding-top: 15px;
+  width: 100%;
+}
+.player {
+  padding-top: 10px;
+  margin: 15px;
+  min-width: 100%;
+  height: 40%;
+}
+
+.actions {
+  margin: 15px;
+  height: 10%;
+  min-width: 100%;
+}
+
+.actionButton {
+  float: left;
+  margin-left: 15%;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/blackjack/cards.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.card {
+  border: solid 3px black;
+  border-radius: 9px;
+  width: 100px;
+  height: 150px;
+  float: left;
+  background-color: white;
+  padding: 3px 3px 3px 3px;
+  margin: 5px;
+}
+
+.card .value {
+  font-size: 18pt;
+  font-family: sans-serif;
+}
+
+.card .suit {
+  background-image: url(/_next/static/media/cards.2acc8bba.png);
+  height: 100px;
+  width: 90px;
+}
+
+.card .diamonds {
+  background-position-y: 100px;
+}
+
+.card .hearts {
+  background-position-x: 90px;
+}
+
+.card .clubs {
+  background-position-x: 90px;
+  background-position-y: 100px;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/blackjack/table.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.table {
+  background-image: url(/_next/static/media/background.eb906a65.png);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  margin: auto;
+}
+
